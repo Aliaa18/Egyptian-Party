@@ -1,0 +1,227 @@
+*{
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+                 /* home section */
+#Home{
+    min-height: 90vh;
+    background:linear-gradient(to right,#d0393992,#d0393992) ,url('./img/home.jpg') center no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    position:relative;
+    color: white;
+}
+ #Home .openNav{
+    font-size:30px;
+    cursor: pointer;
+    
+ }
+ .HomeOverlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+#leftMenu
+{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav a {
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    color: white;
+}
+#Home h2
+{
+    margin-top: 200px;
+    
+}
+#Home h2,p
+{
+    text-align: center;
+    
+}
+.sidenav
+{
+    background-color: #414658;
+}
+.sidenav a:hover{
+    color:  rgba(214, 46, 51 , 0.4);
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#home-content {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+#home-content h2
+{
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+                          /* duration section */
+  #duration{
+    min-height: 45vh;
+    background-color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+  }                 
+         #duration .content{
+            width: 50%;
+            background-color:RGBA(214, 46, 51, 0.6) ;;
+            margin: auto;
+            margin-top: 80px;
+    
+         }
+#duration h5{
+    font-size:28px ;
+    font-weight:500 ;
+    color: white;
+    line-height: 33px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+ #duration p{
+    display:none;
+    background-color: RGB(204, 204, 204);
+   color: RGB(33, 37, 41);
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   padding: 10px;
+}
+ 
+            /* details section */
+   
+       #details{
+   min-height: 45vh;
+   background:linear-gradient(to right,#d0393992,#d0393992) ,url('./img/count.jpg') center no-repeat;
+   background-size: 100% 100%;
+   background-position: center center; 
+   position: relative;
+        }
+        #details .countBox{
+            text-align: center;
+            width:250px ;
+            height: 120px;
+            border: 1px solid white ;
+            margin-inline: 10px;
+            margin-top: 20px;
+            padding-top: 30px;
+            color: white;
+            font-weight: 500;
+   font-size: 30px;
+   line-height: 45px;
+        }            
+
+                         /* contact section */
+
+                 #contact{
+                    min-height: 120vh;
+                    
+                 }
+
+                 #contact .head h2{
+                    
+            font-weight: 700;
+   font-size: 35px;
+   line-height: 42px;
+
+                 }
+                 #contact .head p{
+                    color:RGB(119, 119, 119);
+                    font-weight: 300;
+           font-size: 16px;
+           line-height: 24px;
+
+                 }
+
+    #contact .cont-info h3{
+            color: #444;
+            font-size: 18px;
+            font-weight: bold;
+    }
+    #contact  .cont-info p {
+        font-size: 16px;
+    line-height: 26px;
+    color: #777;
+    }             
+#contact .red{
+    color: RGB(214, 46, 51);
+}
+ #contact i{
+    color:#777;
+    margin: 20px;
+ }
+ #contact .social i{
+    border:1px solid #999 ;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 42px;
+    transition:all .3s;
+ }
+ .fab{
+    font-weight: 400;
+ }
+
+
+#contact input{
+    width: 600px;
+    height: 40px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+}
+
+#contact textarea{
+    width: 600px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    margin-bottom: 30px;
+}
+#contact .hun{
+    color: #D62E33;
+    font-size: 20px;
+}
+#contact .social i:hover{
+    background-color: #D62E33;
+    color: white;
+    border: 0px;
+}
