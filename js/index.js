@@ -32,7 +32,7 @@ $('#duration .head').on('click', function({target}){
 })
            //count down
            window.onload = function() {
-            var countDownDate = new Date("10 october 2023 9:56:00").getTime();
+            var countDownDate = new Date("10 october 2026 9:56:00").getTime();
            var x = setInterval(function() {
              var now = new Date().getTime();
              var differance = countDownDate - now;
